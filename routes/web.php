@@ -17,3 +17,7 @@ Route::get('/', function () {
 Route::get("/add",function(){
 	echo "666";
 });
+
+Route::get("/insert",function(){
+	echo "添加";
+});
